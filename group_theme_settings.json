@@ -3,6 +3,24 @@
     "title": "Theme Settings",
     "fields": [
         {
+            "key": "field_theme_settings_tab_header",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
             "key": "field_theme_settings_logo",
             "label": "Logo",
             "name": "logo",
@@ -28,6 +46,93 @@
             "mime_types": ""
         },
         {
+            "key": "field_theme_settings_sales_portal_link",
+            "label": "Sales Portal link",
+            "name": "sales_portal_link",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "Header \"Sales Portal\" button.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 0,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_theme_settings_account_manager_link",
+            "label": "Find an Account Manager link",
+            "name": "account_manager_link",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "Header and Sales Hub header link.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 0,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_theme_settings_contact_link",
+            "label": "Contact Us link",
+            "name": "contact_link",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "Header \"Contact Us\" button.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 0,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_theme_settings_tab_footer",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
             "key": "field_theme_settings_logo_reverse",
             "label": "Logo (reverse)",
             "name": "logo_reverse",
@@ -51,6 +156,161 @@
             "max_height": 0,
             "max_size": 0,
             "mime_types": ""
+        },
+        {
+            "key": "field_theme_settings_copyright",
+            "label": "Copyright",
+            "name": "copyright",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Footer copyright line (public site and Sales Hub).",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_theme_settings_tab_company_contact",
+            "label": "Company contact",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_theme_settings_phone",
+            "label": "Phone",
+            "name": "phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Shown in the header, footer and Contact page. The call link is made from the digits.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_theme_settings_fax",
+            "label": "Fax",
+            "name": "fax",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Footer and Contact page.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_theme_settings_email",
+            "label": "Email",
+            "name": "email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "Footer and Contact page.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_theme_settings_address",
+            "label": "Address",
+            "name": "address",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "One line per address line. The footer joins them on one line; the Contact page keeps the line breaks.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_theme_settings_hours",
+            "label": "Hours",
+            "name": "hours",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "One line per line. The footer joins them on one line; the Contact page keeps the line breaks.",
+            "required": true,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_theme_settings_tab_sales_hub",
+            "label": "Sales Hub",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
         },
         {
             "key": "field_theme_settings_sales_hub_login_help",
@@ -186,8 +446,8 @@
                     "label": "Link",
                     "name": "link",
                     "aria-label": "",
-                    "type": "url",
-                    "instructions": "",
+                    "type": "page_link",
+                    "instructions": "Page the tool title links to. Leave empty to show the title without a link.",
                     "required": false,
                     "conditional_logic": false,
                     "wrapper": {
@@ -195,8 +455,14 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
+                    "post_type": [
+                        "page"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "allow_archives": 0,
+                    "multiple": 0,
+                    "allow_null": 1,
                     "parent_repeater": "field_theme_settings_tools"
                 }
             ]
@@ -223,5 +489,5 @@
     "display_title": "",
     "allow_ai_access": false,
     "ai_description": "",
-    "modified": 1794467331
+    "modified": 1794575441
 }
